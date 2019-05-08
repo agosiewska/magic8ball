@@ -4,6 +4,8 @@
 #'
 #' @param question question
 #'
+#' @importFrom crayon green
+#'
 #' @export
 ask <- function(question=NULL){
   if (is.null(question)) stop("Ask a question")
@@ -18,5 +20,5 @@ ask <- function(question=NULL){
                "Outlook not so good.", "Very doubtful.")
 
   answer <- sample(answers, 1)
-  answer
+  cat(green(answer))
 }
