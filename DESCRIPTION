@@ -1,0 +1,13 @@
+Package: magic8ball
+Title: Answers
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alicja",
+           family = "Gosiewska",
+           role = c("aut", "cre"),
+           email = "alicjagosiewska@gmail.com")
+Description: Tells you the truth.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
